@@ -63,6 +63,9 @@ class CollectionVC: UIViewController {
         }
         
     }
+    func goof(){
+        print("good job.......")
+    }
 }
 extension CollectionVC:UICollectionViewDataSource,UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
